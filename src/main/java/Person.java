@@ -4,4 +4,8 @@ public class Person {
     public String lastName;
     public int age;
     public double height;
+
+    public String getFullName(){
+        return firstName + " " + lastName;
+    }
 }
